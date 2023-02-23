@@ -50,4 +50,4 @@ Horiseon's purpose is to educate certain topics in digital marketing including t
 See LICENSE in Repository
 
 ## Link to deployed site
-
+https://carsov2.github.io/Horiseon-challenge/
