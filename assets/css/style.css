@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+/* header separates the top text and the sub categories from the main body of the UI, while also giving the text color, value, and sizing */
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*  h1 gives the heading large text to the landing page */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* .seo class is giving a specific color separating these letters from the rest of the title  */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* header division separates the title from the sub categories below */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* this portion of the header contains the subtopics */
+.header div ul {
+    list-style-type: none;
+}
+
+/* margin left tells the landing page where to place the subtopics */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* the a tag gives the text the color attribute to the subtopics */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* p tag gives the subtopics a different size text from the header */
+p {
+    font-size: 16px;
+}
+
+/* the hero class gives the main image of the UI sizing details as well as the file source */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* the float classes allows the webpages text to be placed and sized to creators liking */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* content class places the information along the side of the subtopics instead of below them */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* over all structure of benefits on the right side */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* gives the first benefit sizing and color along the right side of the UI */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* gives the second benefit sizing and color along the right side of the page */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* gives the third benefit sizing and color along the right side of the page */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* gives the text describing the benefits positioning and size */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* gives the text describing the benefits positioning and size */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* gives the image describing the benefits positioning and size */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* gives the image describing the benefits positioning and size */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* gives the image describing the benefits positioning and size */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* gives the image describing the benefits positioning and size */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* the id's bring you to the said subject when activated by pressing the topic at the top of page */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* the id's bring you to said subject when activated by pressing the topic at the top of the page */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* the id's bring you to said subject when activated by pressing the topic at the top of the page */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* each img id is giving a max height characteristic */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* each h2 id is giving the describing text placement and size */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* the footer gives the padding size, text placement, and positioning to the bottom of the page */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* footer h2 gives the text in the footer sizing */
+.footer h2 {
+    font-size: 20px;
+}
